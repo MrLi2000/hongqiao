@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "deploy": "gh-pages -d docs/.vuepress/dist",
+  "commit": "yarn build && yarn deploy",
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "gh-pages": "^4.0.0",
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
