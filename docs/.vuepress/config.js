@@ -1,11 +1,11 @@
 module.exports = {
     base: '/hongqiao/',
-    title: '小狗先生',
+    title: '小狗先森',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
-        ['link', { rel: 'icon', href: '/logo.png' }], // 增加一个自定义的 favicon(网页标签的图标)
+        ['link', { rel: 'icon', href: '/dog.png' }], // 增加一个自定义的 favicon(网页标签的图标)
     ],
     themeConfig: {
-        logo: '/logo.png',
+        logo: '/dog.png',
         smoothScroll: true, //启用页面滚动效果
         displayAllHeaders: true, // 默认值：false
         nav:[ // 导航栏配置
@@ -19,22 +19,24 @@ module.exports = {
         sidebar: {
             '/recipes/': [
                 {
-                    title: '小猪食谱',
+                    title: '水果',
                     // collapsable: false,
                     children: [
-                        { title: '早餐', path: '/recipes/breakfast/'},
-                        { title: '水果', path: '/recipes/fruits/'},
+                        { title: '西瓜', path: '/recipes/fruits/xigua'},
+                        { title: '葡萄', path: '/recipes/fruits/putao'},
+                        { title: '草莓', path: '/recipes/fruits/caomei'},
                     ]
                 },
-                // {
-                //     title: '小狗食谱',
-                //     // collapsable: false,
-                //     children: [
-                //         { title: '早餐', path: '/recipes/breakfast/'},
-                //         { title: '水果', path: '/recipes/fruits/'},
-                //     ]
-                // },
+                {
+                    title: '素',
+                    // collapsable: false,
+                    children: [
+                        { title: '土豆', path: '/recipes/vegetables/tudou'},
+                        { title: '番茄', path: '/recipes/vegetables/fanqie'},
+                    ]
+                },
             ],
+            '/': [''],
         },
         sidebarDepth: 2,//左侧导航显示的层级
         lastUpdated: 'Last Updated'
