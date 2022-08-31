@@ -14,12 +14,12 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m '小猪食谱基础搭建'
+git commit -m '水果、素菜分组'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:MrLi2000/hongqiao.git master:gh-pages2
+git push -f git@github.com:MrLi2000/hongqiao.git master:gh-pages
 
 cd -

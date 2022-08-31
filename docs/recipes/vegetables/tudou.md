@@ -1,5 +1,5 @@
 # 土豆
-<img src="/vegetables/tudou.png">
+<img src="/tudou.png">
 
 营养价值/100g|含量
 ----|:--:

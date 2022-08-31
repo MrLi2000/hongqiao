@@ -1,5 +1,5 @@
 # 番茄
-<img src="/vegetables/fanqie.png">
+<img src="/fanqie.png">
 
 营养价值/100g|含量
 ----|:--:
